@@ -7,7 +7,7 @@ import sys
 
 def padding_for_year(df, v_year=2019, days_to_pad=366):
     
-    map_weekday = {0:'segunda',1:'terca',2:'quarta',3:'quinta',4:'sexta',5:'sabado',6:'domingo'}
+    map_weekday = {0:'segunda',1:'terça',2:'quarta',3:'quinta',4:'sexta',5:'sábado',6:'domingo'}
 
     df.sort_values(by='data')
     periodos = df.periodo.unique()
